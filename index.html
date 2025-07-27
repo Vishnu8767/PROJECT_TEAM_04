@@ -227,4 +227,15 @@ align-items: center;
             margin-bottom: 1rem;
             position: relative;
         }
+          .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(135deg, #d4af37, #f4d03f);
+            border-radius: 2px;
+        }
 
