@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
     <title>Urban Bites Fine Dining Experience</title>
+=======
+    <title>Urban_Bites Fine Dining Experience</title>
+>>>>>>> b1
     <style>
         body {
             font-family: "Times New Roman", serif;
@@ -210,9 +214,11 @@
         <div>
             <h1>Urban Bites</h1>
             <p>Experience great food and a relaxing atmosphere, where every meal is special.</p>
-            <a href="menu.html" class="btn btn-primary">View Menu</a>
+            <a href="menu.html" class="oobtn btn-primary">View Menu</a>
             <a href="order.html" class="btn btn-secondary">Order Now</a>
         </div>
+<<<<<<< HEAD
+=======
    </section>
            <section class="section">
         <h2>Our Story</h2>
@@ -221,6 +227,7 @@
         been to combine great taste, exceptional service, and memorable dining experiences. 
         Over the years, we have grown into a popular destination for those who appreciate 
         fine dining but with 7&&&888((( a comfortable and inviting feel.</p>
+>>>>>>> b1
     </section>
     <section class="section">
         <h2>Our Story</h2>
