@@ -117,4 +117,21 @@ body {
     <h2 class="section-title">Meet Our Chefs</h2>
     <div class="chef-grid"></div>
 </section>
+.chef-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+}
+.chef-card { 
+    background: #222; 
+    padding: 20px; 
+    border-radius: 15px; 
+    border: 1px solid rgba(255,215,0,0.3); 
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.chef-card:hover { 
+    transform: translateY(-5px); 
+    border-color: #FFD700; 
+}
 
