@@ -91,4 +91,26 @@ body {
     <div class="menu-item"><span>City Lights Mocktail</span><span>$8</span></div>
     <div class="menu-item"><span>Artisan Coffee Blends</span><span>$6</span></div>
 </div>
+.menu-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,215,0,0.3);
+    transition: transform 0.3s ease;
+}
+.menu-card:hover {
+    transform: translateY(-5px);
+    border-color: #FFD700;
+}
+.menu-category { 
+    font-weight: bold; 
+    color: #FFD700; 
+    margin-bottom: 10px; 
+}
+.menu-item { 
+    display: flex; 
+    justify-content: space-between; 
+    border-bottom: 1px dotted rgba(255,215,0,0.3); 
+    padding: 5px 0; 
+}
 
