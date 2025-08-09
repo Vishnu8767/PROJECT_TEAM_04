@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>More - Urban Bites</title>
+=======
     <title>More_urban_bites</title>
+>>>>>>> b4
 
     <style>
         /* Reset styles */
@@ -192,42 +196,29 @@
                 <div class="menu-category">Signature Appeteciers</div>
                 <div class="menu-item"><span>Urban Slidres Trio</span><span>$25</span></div>
                 <div class="menu-item"><span>Street Corn Dumplings</span><span>$30</span></div>
+<<<<<<< HEAD
+                <div class="menu-item"><span>Crispy Avocado Bites</span><span>$10</span></div>
+=======
                 <div class="menu-item"><span>Avocado Bites</span><span>$10</span></div>
+>>>>>>> b4
             </div>
 
             <div class="menu-card">
                 <div class="menu-category">Main Courses</div>
                 <div class="menu-item"><span>City Fusino Bowl</span><span>$30</span></div>
                 <div class="menu-item"><span>Metropolitan Steak</span><span>$35</span></div>
+<<<<<<< HEAD
                 <div class="menu-item"><span>Urban Garden Pasta</span><span>$25</span></div>
             </div>
 
             <div class="menu-card">
-<<<<<<< HEAD
                 <div class="menu-category">Craft Beverages</div>
                 <div class="menu-item"><span>Golden Hour Cocktail</span><span>$5</span></div>
                 <div class="menu-item"><span>City Lights Mocktail</span><span>$3</span></div>
                 <div class="menu-item"><span>Artisan Coffee Blends</span><span>$2</span></div>
 =======
-                <div class="menu-category">Beverages</div>
-                 <div class="menu-category">Beverages</div>
-
-<div class="menu-item">
-    <span>Mango Smoothie</span>
-    <span>$7</span>
-</div>
-
-<div class="menu-item">
-    <span>Classic Lemonade</span>
-    <span>$5</span>
-</div>
-
-<div class="menu-item">
-    <span>Hot Chocolate</span>
-    <span>$6</span>
-</div>
-
->>>>>>> b5
+                <div class="menu-item"><span>Urban Garden Pasta</span><span>$25</span>
+>>>>>>> b4
             </div>
 
         </div>
@@ -239,7 +230,11 @@
             <div class="chef-card">
                 <div class="chef-avatar">👨‍🍳</div>
                 <p class="chef-name">SRAVAN</p>
+<<<<<<< HEAD
+                <p class="chef-title">Executive Chef</p>
+=======
                 <p class="chef-title">Executi@ve Chef</p>
+>>>>>>> b4
                 <p>15 years experience in Michelin-starred restaurants, bringing innovative flavors to Urban Bites.</p>
             </div>
             <div class="chef-card">
