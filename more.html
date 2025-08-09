@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Urban Bites</title>
+
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000, #1a1a1a);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero-section {
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #000, #333);
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle, rgba(255,215,0,0.2) 10%, transparent 60%);
+        }
+
+        .hero-content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: #FFD700;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+         /* ===== CONTENT SECTION ===== */
+        .content-section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ===== GRID STYLES ===== */
+        .menu-grid, .chef-grid, .info-grid, .features-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .menu-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .chef-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+        .info-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .features-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+          /* ===== CARD STYLING ===== */
+        .menu-card, .chef-card, .info-card, .feature-item {
+            background: #222;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,215,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-card:hover, .chef-card:hover, .info-card:hover, .feature-item:hover {
+            transform: translateY(-5px);
+            border-color: #FFD700;
+        }
+           /* ===== MENU ===== */
+        .menu-category {
+            font-weight: bold;
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dotted rgba(255,215,0,0.3);
+            padding: 5px 0;
+        }
+          /* ===== CHEFS ===== */
+        .chef-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            margin: auto;
+        }
+        .chef-name {
+            color: #FFD700;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .chef-title {
+            color: #FFA500;
+            font-style: italic;
+        }
+          /* ===== INFO SECTION ===== */
+        .info-title {
+            color: #FFD700;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .hours-list {
+            list-style: none;
+        }
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 3px 0;
+            border-bottom: 1px dotted rgba(255,215,0,0.3);
+        }
+
+               /* ===== FEATURES ===== */
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            color: #FFD700;
+        }
+        .feature-title {
+            color: #FFD700;
+            font-weight: bold;
+        }
+        .feature-desc {
+            font-size: 0.9rem;
+            color: #ccc;
+            text-align: center;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media(max-width: 768px) {
+            .logo { font-size: 2rem; }
+            .subtitle { font-size: 1rem; }
+            .section-title { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- HERO -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="logo">Urban Bites</h1>
+            <p class="subtitle">Discover More About Us</p>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="content-section">
+        <h2 class="section-title">Menu Highlights</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <div class="menu-category">Signature Appetizers</div>
+                <div class="menu-item"><span>Urban Sliders Trio</span><span>$18</span></div>
+                <div class="menu-item"><span>Street Corn Dumplings</span><span>$14</span></div>
+                <div class="menu-item"><span>Crispy Avocado Bites</span><span>$12</span></div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-category">Main Courses</div>
+                <div class="menu-item"><span>City Fusion Bowl</span><span>$24</span></div>
+                <div class="menu-item"><span>Metropolitan Steak</span><span>$32</span></div>
+                <div class="menu-item"><span>Urban Garden Pasta</span><span>$22</span></div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-category">Craft Beverages</div>
+                <div class="menu-item"><span>Golden Hour Cocktail</span><span>$15</span></div>
+                <div class="menu-item"><span>City Lights Mocktail</span><span>$8</span></div>
+                <div class="menu-item"><span>Artisan Coffee Blends</span><span>$6</span></div>
+            </div>
+
+        </div>
+    </section>
+       <!-- CHEFS -->
+    <section class="content-section">
+        <h2 class="section-title">Meet Our Chefs</h2>
+        <div class="chef-grid">
+            <div class="chef-card">
+                <div class="chef-avatar">👨‍🍳</div>
+                <p class="chef-name">SRAVAN</p>
+                <p class="chef-title">Executive Chef</p>
+                <p>15 years experience in Michelin-starred restaurants, bringing innovative flavors to Urban Bites.</p>
+            </div>
+            <div class="chef-card">
+                <div class="chef-avatar">👩‍🍳</div>
+                <p class="chef-name">NIHARIKA</p>
+                <p class="chef-title">Pastry Chef</p>
+                <p>Known for artistic dessert creations blending traditional and modern styles.</p>
+            </div>
+            <div class="chef-card">
+                <div class="chef-avatar">🧑‍🍳</div>
+                <p class="chef-name">GURU MAHENDRA</p>
+                <p class="chef-title">Sous Chef</p>
+                <p>Specializes in fusion cuisine, mixing local ingredients with international flavors.</p>
+            </div>
+        </div>
+    </section>
+   <!-- FEATURES -->
+    <section class="content-section">
+        <h2 class="section-title">Special Features</h2>
+        <div class="features-grid">
+            <div class="feature-item"><div class="feature-icon">🍷</div><div class="feature-title">Wine Pairing</div><p class="feature-desc">Expert sommelier picks</p></div>
+            <div class="feature-item"><div class="feature-icon">🎵</div><div class="feature-title">Live Music</div><p class="feature-desc">Weekend jazz</p></div>
+            <div class="feature-item"><div class="feature-icon">🎂</div><div class="feature-title">Private Events</div><p class="feature-desc">Custom packages</p></div>
+            <div class="feature-item"><div class="feature-icon">🌱</div><div class="feature-title">Farm-to-Table</div><p class="feature-desc">Fresh local produce</p></div>
+            <div class="feature-item"><div class="feature-icon">📱</div><div class="feature-title">Online Ordering</div><p class="feature-desc">Quick takeout</p></div>
+            <div class="feature-item"><div class="feature-icon">🎨</div><div class="feature-title">Art Gallery</div><p class="feature-desc">Local artist exhibits</p></div>
+        </div>
+    </section>
+   <!-- VISIT US -->
+    <section class="content-section">
+        <h2 class="section-title">Visit Us</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3 class="info-title">🕒 Hours</h3>
+                <ul class="hours-list">
+                    <li><span>Mon - Thu</span><span>11:00 AM - 10:00 PM</span></li>
+                    <li><span>Fri - Sat</span><span>11:00 AM - 11:00 PM</span></li>
+                    <li><span>Sunday</span><span>10:00 AM - 9:00 PM</span></li>
+                    <li><span>Brunch</span><span>10:00 AM - 2:00 PM</span></li>
+                </ul>
+            </div>
+	    <div class="info-card">
+                <h3 class="info-title">📍 Contact</h3>
+                <p>123 Metropolitan Avenue<br>Downtown District, NY 10001</p>
+                <p>Phone: <a href="tel:+15551234567" style="color:#FFD700;">(555) 123-4567</a></p>
+                <p>Email: <a href="mailto:hello@urbanbites.com" style="color:#FFD700;">hello@urbanbites.com</a></p>
+            </div>
+            <div class="info-card">
+                <h3 class="info-title">🎉 Events</h3>
+                <p>Happy Hour: Mon-Fri 4-6 PM</p>
+                <p>Wine Wednesdays: 50% off bottles</p>
+                <p>Sunday Jazz Brunch: 11 AM - 2 PM</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+
