@@ -84,4 +84,17 @@
         .chef-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
         .info-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
         .features-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+          /* ===== CARD STYLING ===== */
+        .menu-card, .chef-card, .info-card, .feature-item {
+            background: #222;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,215,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-card:hover, .chef-card:hover, .info-card:hover, .feature-item:hover {
+            transform: translateY(-5px);
+            border-color: #FFD700;
+        }
 
