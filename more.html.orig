@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>More - Urban Bites</title>
-=======
-    <title>More_urban_bites</title>
->>>>>>> b1
-
     <style>
         /* Reset styles */
         * {
@@ -194,42 +189,34 @@
 
             <div class="menu-card">
                 <div class="menu-category">Signature Appetizers</div>
-<<<<<<< HEAD
                 <div class="menu-item"><span>Urban Sliders Trio</span><span>$18</span></div>
                 <div class="menu-item"><span>Street Corn Dumplings</span><span>$14</span></div>
                 <div class="menu-item"><span>Crispy Avocado Bites</span><span>$12</span></div>
-=======
                 <div class="menu-item"><span>Urban Slidres Trio</span><span>$25</span></div>
                 <div class="menu-item"><span>Street Corn Dumplings</span><span>$30</span></div>
                 <div class="menu-item"><span>Avocado Bites</span><span>$10</span></div>
->>>>>>> b1
+
             </div>
 
             <div class="menu-card">
                 <div class="menu-category">Main Courses</div>
-<<<<<<< HEAD
                 <div class="menu-item"><span>City Fusion Bowl</span><span>$24</span></div>
                 <div class="menu-item"><span>Metropolitan Steak</span><span>$32</span></div>
                 <div class="menu-item"><span>Urban Garden Pasta</span><span>$22</span></div>
-=======
                 <div class="menu-item"><span>City Fusino Bowl</span><span>$30</span></div>
                 <div class="menu-item"><span>Metropolitan Steak</span><span>$35</span></div>
                 <div class="menu-item"><span>Urban Garden Pasta</span><span>$25</span></div>
->>>>>>> b1
             </div>
 
             <div class="menu-card">
                 <div class="menu-category">Craft Beverages</div>
-<<<<<<< HEAD
                 <div class="menu-item"><span>Golden Hour Cocktail</span><span>$15</span></div>
                 <div class="menu-item"><span>City Lights Mocktail</span><span>$8</span></div>
                 <div class="menu-item"><span>Artisan Coffee Blends</span><span>$6</span></div>
-=======
                 <div class="menu-item"><span>Golden Hour Cocktail</span><span>$5</span></div>
                 <div class="menu-item"><span>City Lights Mocktail</span><span>$3</span></div>
                 <div class="menu-item"><span>Artisan Coffee Blends</span><span>$2</span></div>
-		<div class="menu-item"><span>Urban Garden Pasta</span><span>$25</span>
->>>>>>> b1
+		<div class="menu-item"><span>Urban Garden Pasta</span><span>$25</span></div>
             </div>
 
         </div>
@@ -277,15 +264,12 @@
             <div class="info-card">
                 <h3 class="info-title">🕒 Hours</h3>
                 <ul class="hours-list">
-<<<<<<< HEAD
                     <li><span>Mon - Thu</span><span>11:00 AM - 10:00 PM</span></li>
                     <li><span>Fri - Sat</span><span>11:00 AM - 11:00 PM</span></li>
                     <li><span>Sunday</span><span>10:00 AM - 9:00 PM</span></li>
-=======
                     <li><span>Mon - Thu</span><span>10:00 AM - 11:00 PM</span></li>
                     <li><span>Fri - Sat</span><span>11:00 AM - 10:00 PM</span></li>
                     <li><span>Sunday</span><span>10:00 AM - 12:00 PM</span></li>
->>>>>>> b1
                     <li><span>Brunch</span><span>10:00 AM - 2:00 PM</span></li>
                 </ul>
             </div>
@@ -298,11 +282,8 @@
             <div class="info-card">
                 <h3 class="info-title">🎉 Events</h3>
                 <p>Happy Hour: Mon-Fri 4-6 PM</p>
-<<<<<<< HEAD
                 <p>Wine Wednesdays: 50% off bottles</p>
-=======
                 <p>Wine Wednesdays: 40% off bottles</p>
->>>>>>> b1
                 <p>Sunday Jazz Brunch: 11 AM - 2 PM</p>
             </div>
         </div>
